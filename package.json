@@ -1,0 +1,17 @@
+{
+  "name": "ipv6-extension-headers",
+  "version": "0.1.0",
+  "description": "Walks an IPv6 packet through its extension header chain, yielding each next-header type and payload boundary.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {}
+}
